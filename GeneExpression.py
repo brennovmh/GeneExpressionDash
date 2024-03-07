@@ -4,10 +4,10 @@ import plotly.express as px
 import re
 
 # Carregar os dados ### ALTERE AQUI OS DADOS QUANDO QUISER
-df = pd.read_csv("/home/bvmh/PycharmProjects/GeneExpression/tx_abudance.csv", decimal=',')
+df = pd.read_csv("tx_abudance.csv", decimal=',')
 
 # Adicionar a logo no topo
-logo_path = "/home/bvmh/PycharmProjects/GeneExpression/download.png"
+logo_path = "download.png"
 st.image(logo_path, use_column_width=False)
 
 st.title("Análise de Expressão Diferencial - Round 1")

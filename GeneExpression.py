@@ -10,7 +10,7 @@ df = pd.read_csv("/home/bvmh/PycharmProjects/GeneExpression/TS_RNA_tx_abundance.
 logo_path = "/home/bvmh/PycharmProjects/GeneExpression/download.png"
 st.image(logo_path, use_column_width=False)
 
-st.title("Análise de Expressão Diferencial - Round 1")
+st.title("Análise de Expressão Diferencial")
 
 # Adicionar campo para exploração de dados
 st.sidebar.subheader("Selecione um gene")
